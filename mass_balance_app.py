@@ -3,7 +3,7 @@ from flask import Flask, render_template_string, request, jsonify
 app = Flask(__name__)
 
 # =========================
-# Données A320
+# Donnees A320
 # =========================
 BEM = 42600           # Basic Empty Mass
 MTOM = 77000          # Max Takeoff Mass
@@ -269,3 +269,4 @@ def calculate():
 # =========================
 if __name__ == "__main__":
     app.run(debug=True)
+
